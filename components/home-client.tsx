@@ -9,6 +9,7 @@ import { ToolsGrid } from "@/components/tools-grid"
 import { ProjectsGrid } from "@/components/projects-grid"
 import { projects } from "@/components/data/projects"
 import { Card, CardHeader, CardTitle, CardContent } from "@/components/ui/card"
+import { CertificatesSlider } from "@/components/certificates-slider"
 
 interface BlogPost {
   slug: string
@@ -195,6 +196,9 @@ export function HomeClient({ recentPosts }: HomeClientProps) {
           </div>
         </div>
       </section>
+
+      {/* Certificates Section */}
+      <CertificatesSlider />
 
       {/* Categories Section
       <section className="py-16 md:py-20">

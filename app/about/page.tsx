@@ -8,6 +8,7 @@ import Image from "next/image"
 import Link from "next/link"
 import { Award, Briefcase } from 'lucide-react'
 import { SocialLinks } from "@/components/social-links"
+import { CertificatesGrid } from "@/components/certificates-grid"
 
 const achievements = [
   {
@@ -94,15 +95,15 @@ export default function AboutPage() {
           transition={{ duration: 0.5, delay: 0.2 }}
           className="space-y-8"
         >
-          <div className="prose prose-gray dark:prose-invert">
+          <div className="prose prose-gray dark:prose-invert max-w-none">
             <h1 className="text-4xl font-bold tracking-tight">About Me</h1>
-            <p className="text-xl text-muted-foreground">
+            <p className="text-xl text-muted-foreground text-justify leading-relaxed">
               Hello! I&apos;m an AI/ML Engineer passionate about developing innovative solutions that bridge the gap between technology and human interaction. With expertise in AI, machine learning, and software development, I&apos;ve worked on diverse projects ranging from natural language processing to computer vision applications.
             </p>
-            <p className="text-muted-foreground">
+            <p className="text-muted-foreground text-justify leading-relaxed">
               My journey in AI was shaped by extensive learning through programs like Angela Yu&apos;s 100 Days of Code: The Complete Python Pro Bootcamp and Andrew Ng&apos;s Machine Learning Specialization. These experiences laid the foundation for impactful projects, including hand gesture control software that leverages computer vision for intuitive control and an object detection system designed for real-world applications.
             </p>
-            <p className="text-muted-foreground">
+            <p className="text-muted-foreground text-justify leading-relaxed">
               When I&apos;m not building intelligent systems, I focus on open-source contributions, showcasing my projects on GitHub, and exploring the latest advancements in AI to create meaningful solutions.
             </p>
           </div>
@@ -123,7 +124,19 @@ export default function AboutPage() {
               </Card>
             ))}
           </div>
+        </motion.div>
+      </div>
 
+      {/* Certificates Section */}
+      <CertificatesGrid />
+
+      <div className="container px-4 md:px-6">
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.5, delay: 0.4 }}
+          className="space-y-8"
+        >
           {/* Call to Action */}
           <Card className="bg-primary/10 border-none">
             <CardContent className="p-6">
