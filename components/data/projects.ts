@@ -91,11 +91,11 @@ export const projects: Project[] = [
   {
     title: "Portfolio Website",
     description: "End-to-end automated machine learning pipeline for model training, testing, and deployment.",
-    image: "/projects/web-project.png",
+    image: "/projects/website-homepage.png",
     longDescription: "A modern portfolio website built with React, Next.js, and TailwindCSS. Features include responsive design, server-side rendering, and continuous deployment with Vercel. Optimized for performance and SEO.",
     tags: ["React", "Next.js", "TailwindCSS", "Vercel"],
-    github: "https://github.com/danialasim/danialasim-blog",
-    huggingface: "https://www.danialasim.com/",
+    github: "https://github.com/fadiljaleel/",
+    huggingface: "https://www.fadiljaleel.com/",
     stats: {
       deployments: 100,
       uptime: "99.9%",

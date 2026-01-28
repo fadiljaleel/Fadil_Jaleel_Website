@@ -13,33 +13,42 @@ import { CertificatesGrid } from "@/components/certificates-grid"
 const achievements = [
   {
     icon: Award,
-    title: "Awards & Recognition",
+    title: "Achievements & Certifications",
     items: [
-      "• 100 Days of Code: The Complete Python Pro Bootcamp by Angela Yu (2024)",
-      "• Machine Learning Specialization by Andrew Ng (2024)", 
-      "• TensorFlow for Deep Learning Bootcamp by Zero to Mastery (2024)"
+      "• Meta Back-End Developer Specialization | Coursera (2026)",
+      "• Advanced Django: Mastering Django & Django REST Framework | Coursera (2025)", 
+      "• NACTET Certification: Big Data, AI, ML, & Data Science | Luminar Technolab | 2023",
+      "• Reboot Kerala Hackathon | Transportation Department | 2021",
+      "• CISCO Certified Network Associate (CCNA) (2021)",
+      "• Google Data Analytics Professional Certificate | Coursera",
+      "• IBM Data Analyst Professional Certificate | Coursera",
     ]
   },
   {
     icon: Briefcase,
     title: "Experience",
     items: [
-      "• Freelance AI/ML Engineer – Upwork (2023–Present)\nDesigned and implemented custom AI solutions, including hand gesture control software and object detection systems, tailored to client needs.",
-      "• Frontend and WordPress Developer – Fiverr (2019–2022)\nCreated responsive websites and user interfaces for diverse clients.",
-      "• AI-Powered Website Design – Healing Lounge (2024)\nDelivered a custom website for a therapist, combining intuitive features with modern aesthetics."
+      "• Python Full Stack Developer – Meta Scifor Technologies Pvt. Ltd., India (Jan 2024 – Jan 2025)\nDeveloped a high-performance Athlete Management System (AMS) with RBAC for multiple user tiers. Optimized MySQL schemas and integrated reporting modules, improving data flow efficiency by 30%.",
+      "• Python Full Stack Developer – Edgewave Academy LLP, India (May 2023 – Dec 2023)\nArchitected backend systems for LMS using Python/Django. Built secure authentication, payment workflows, Vimeo live session integration, and interactive frontend features.",
+      "• Big Data & Data Science Intern – Luminar Technolab, India (Aug 2022 – Apr 2023)\nProcessed large datasets using Hadoop/Hive, built ML models, and created dashboards in Tableau & Power BI for business insights."
     ]
   }
 ]
 
 const skills = [
+  "Python",
+  "Django",
+  "Django REST Framework",
+  "Flask",
   "Machine Learning",
-  "Deep Learning",
-  "Computer Vision",
   "Natural Language Processing",
-  "PyTorch",
-  "TensorFlow",
-  "MLOps",
-  "Data Science"
+  "Computer Vision",
+  "Data Science",
+  "SQL / MySQL / PostgreSQL",
+  "Power BI",
+  "Tableau",
+  "API Development",
+  "Frontend Development"
 ]
 
 export default function AboutPage() {

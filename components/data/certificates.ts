@@ -8,58 +8,68 @@ export interface Certificate {
 
 export const certificates: Certificate[] = [
   {
-    title: "AI Engineer for Data Scientists Associate certificate",
-    image: "/certificates/AEDS0016099158007.jpg",
-    externalLink: "https://www.datacamp.com/certificate/AEDS0016099158007"
+    title: "Meta Web Development Fundamentals",
+    image: "/certificates/ABCDEFG.jpg",
+    externalLink: "https://www.coursera.org/specializations/meta-web-development-fundamentals"
   },
   {
-    title: "AI For Everyone",
-    image: "/certificates/W1IFH5VWS3DN.jpg",
-    externalLink: "https://www.coursera.org/verify/W1IFH5VWS3DN"
+    title: "Meta Back-End Developer (Coursera)",
+    image: "/certificates/W1IFH5VWSABC.jpg",
+    externalLink: "https://www.coursera.org/professional-certificates/meta-back-end-developer"
   },
   {
-    title: "Supervised Machine Learning: Regression and Classification",
+    title: "Advanced Django: Mastering Django and Django Rest Framework (Coursera)",
     image: "/certificates/56NVF144TLRW.jpg",
-    externalLink: "https://www.coursera.org/verify/56NVF144TLRW"
+    externalLink: "https://www.coursera.org/specializations/codio-advanced-django-and-django-rest-framework"
   },
   {
-    title: "Advanced Learning Algorithms",
-    image: "/certificates/WMBFPCNNQVQS.jpg",
-    externalLink: "https://www.coursera.org/verify/WMBFPCNNQVQS"
+    title: "Architecting with Google Compute Engine (Coursera)",
+    image: "/certificates/WMBFPCNNQVAB.jpg",
+    externalLink: "https://coursera.org/verify/specialization/QA5TQK325LXL"
   },
   {
-    title: "Machine Learning Specialization",
-    image: "/certificates/A2OL55Y1P7P1.jpg",
-    externalLink: "https://coursera.org/verify/specialization/A2OL55Y1P7P1"
+    title: "Getting Started with AWS Machine Learning (Coursera)",
+    image: "/certificates/A2OL55Y1P7AB.jpg",
+    externalLink: "https://coursera.org/verify/4XXM7VRR375P"
   },
   {
-    title: "Retrieval Augmented Generation (RAG)",
-    image: "/certificates/2519FIBBV8VK.jpg",
-    externalLink: "https://coursera.org/verify/2519FIBBV8VK"
+    title: "NACTET certification in Data Science/Big Data/AI/ML/DL/TABLEAU",
+    image: "/certificates/2519FIBBV8AB.jpg",
+    externalLink: "https://coursera.org/verify/4XXM7VRR375P"
   },
   {
-    title: "Sequence Models",
-    image: "/certificates/FDOFXVNG04E3.jpg",
-    externalLink: "https://coursera.org/verify/FDOFXVNG04E3"
+    title: "Reboot Kerala Hackathon (2021) - Transportation Department",
+    image: "/certificates/FDOFXVNG04AB.jpg",
+    externalLink: "https://coursera.org/verify/4XXM7VRR375P"
   },
   {
-    title: "Generative AI with Large Language Models",
+    title: "Google Data Analytics Professional (Coursera)",
     image: "/certificates/VUND8CNU76J8.jpg",
-    externalLink: "https://coursera.org/verify/VUND8CNU76J8"
+    externalLink: "https://www.coursera.org/professional-certificates/google-cloud-data-analytics-certificate"
   },
   {
-    title: "Transformer Models and BERT Model",
+    title: "IBM Data Analyst Professional (Coursera)",
     image: "/certificates/6Y2R16ML87I8.jpg",
-    externalLink: "https://coursera.org/verify/6Y2R16ML87I8"
+    externalLink: "https://www.coursera.org/professional-certificates/ibm-data-analyst"
   },
   {
-    title: "Develop Generative AI Applications: Get Started",
+    title: "SQL for Data Science (Coursera)",
     image: "/certificates/888URJK0Z1RU.jpg",
     externalLink: "https://coursera.org/verify/888URJK0Z1RU"
   },
   {
-    title: "Build RAG Applications: Get Started",
-    image: "/certificates/UL5TL52G2TV0.jpg",
+    title: "Microsoft Power BI Data Analyst (Coursera)",
+    image: "/certificates/UL5TL52G2TAB.jpg",
+    externalLink: "https://coursera.org/verify/UL5TL52G2TV0"
+  },
+   {
+    title: "Meta Data Analyst Professional (Coursera)",
+    image: "/certificates/AWMBFPCNNQVQS.jpg",
+    externalLink: "https://www.coursera.org/professional-certificates/meta-data-analyst"
+  },
+  {
+    title: "Cisco Certified Network Associate",
+    image: "/certificates/BWMBFPCNNQVQS.jpg",
     externalLink: "https://coursera.org/verify/UL5TL52G2TV0"
   }
 ];
