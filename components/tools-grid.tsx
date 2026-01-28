@@ -5,69 +5,104 @@ import { Card, CardContent } from "@/components/ui/card"
 
 const tools = [
   {
-    name: "TensorFlow",
-    emoji: "🧠",
-    category: "Deep Learning"
-  },
-  {
-    name: "PyTorch",
-    emoji: "🔥",
-    category: "Deep Learning"
-  },
-  {
     name: "Python",
     emoji: "🐍",
     category: "Programming"
   },
   {
-    name: "Scikit-learn",
-    emoji: "🤖",
-    category: "Machine Learning"
+    name: "Django",
+    emoji: "🌐",
+    category: "Backend Framework"
   },
   {
-    name: "Keras",
+    name: "Django REST Framework",
     emoji: "⚡",
-    category: "Deep Learning"
+    category: "Backend Framework"
   },
   {
-    name: "NLTK",
-    emoji: "📚",
-    category: "NLP"
+    name: "Flask",
+    emoji: "🥤",
+    category: "Backend Framework"
   },
   {
-    name: "spaCy",
-    emoji: "🔤",
-    category: "NLP"
+    name: "API Development",
+    emoji: "🔗",
+    category: "Backend"
   },
   {
-    name: "OpenAI",
+    name: "HTML",
+    emoji: "💻",
+    category: "Frontend"
+  },
+  {
+    name: "CSS",
+    emoji: "🎨",
+    category: "Frontend"
+  },
+  {
+    name: "JavaScript",
+    emoji: "📜",
+    category: "Frontend"
+  },
+  {
+    name: "Bootstrap",
+    emoji: "📦",
+    category: "Frontend"
+  },
+  {
+    name: "Tailwind",
     emoji: "🌟",
-    category: "AI"
+    category: "Frontend"
   },
   {
-    name: "Hugging Face",
-    emoji: "🤗",
-    category: "NLP"
+    name: "MySQL",
+    emoji: "🗄️",
+    category: "Database"
+  },
+  {
+    name: "PostgreSQL",
+    emoji: "🐘",
+    category: "Database"
+  },
+  {
+    name: "SQLite",
+    emoji: "📝",
+    category: "Database"
+  },
+  {
+    name: "SQL & Optimization",
+    emoji: "🔍",
+    category: "Database"
+  },
+  {
+    name: "Power BI",
+    emoji: "📊",
+    category: "Data & BI"
+  },
+  {
+    name: "Excel",
+    emoji: "📈",
+    category: "Data & BI"
+  },
+  {
+    name: "Pandas",
+    emoji: "🐼",
+    category: "Data & BI"
   },
   {
     name: "NumPy",
     emoji: "🔢",
-    category: "Data Science"
+    category: "Data & BI"
   },
   {
-    name: "MLflow",
-    emoji: "🧪",
-    category: "MLOps"
+    name: "Matplotlib",
+    emoji: "📉",
+    category: "Data & BI"
   },
   {
-    name: "Weights & Biases",
+    name: "Seaborn",
     emoji: "📊",
-    category: "MLOps"
-  },
-  {
-    name: "DVC",
-    emoji: "🗃️",
-    category: "MLOps"
+    category: "Data & BI"
   },
   {
     name: "Docker",
@@ -80,44 +115,24 @@ const tools = [
     category: "DevOps"
   },
   {
-    name: "LangChain",
+    name: "AWS Basics",
+    emoji: "☁️",
+    category: "DevOps"
+  },
+  {
+    name: "Git & GitHub",
     emoji: "🔗",
-    category: "RAG Framework"
+    category: "Tools & Platforms"
   },
   {
-    name: "LlamaIndex",
-    emoji: "🦙",
-    category: "RAG Framework"
+    name: "Jira",
+    emoji: "📋",
+    category: "Tools & Platforms"
   },
   {
-    name: "Haystack",
-    emoji: "🌾",
-    category: "RAG Framework"
-  },
-  {
-    name: "Milvus",
-    emoji: "🗄️",
-    category: "Vector DB"
-  },
-  {
-    name: "Pinecone",
-    emoji: "🌲",
-    category: "Vector DB"
-  },
-  {
-    name: "Weaviate",
-    emoji: "🧬",
-    category: "Vector DB"
-  },
-  {
-    name: "ChromaDB",
-    emoji: "🟣",
-    category: "Vector DB"
-  },
-  {
-    name: "FAISS",
-    emoji: "🔍",
-    category: "Vector DB"
+    name: "VS Code",
+    emoji: "💻",
+    category: "Tools & Platforms"
   },
 ]
 
@@ -147,4 +162,3 @@ export function ToolsGrid() {
     </div>
   )
 }
-

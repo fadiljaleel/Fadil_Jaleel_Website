@@ -50,12 +50,12 @@ export function HomeClient({ recentPosts }: HomeClientProps) {
                   <Brain className="h-12 w-12 md:h-16 md:w-16 text-primary" />
                 </div>
               </motion.div>
-              <h1 className="text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-bold tracking-tighter">
-                AI/ML Engineer
+              <h1 className="text-2xl md:text-3xl lg:text-4xl xl:text-5xl font-bold tracking-tighter">
+                Python Full Stack Developer
               </h1>
-              <h6 className="text-lg md:text-xl lg:text-2xl xl:text-3xl font-bold tracking-tighter">Transforming Ideas into AI Solutions</h6>
+              <h6 className="text-lg md:text-xl lg:text-2xl xl:text-3xl font-bold tracking-tighter">Building Software That Powers Business</h6>
               <p className="text-lg md:text-xl text-muted-foreground max-w-[600px] mx-auto lg:mx-0">
-                Hello! I&apos;m a passionate AI/ML Engineer skilled in building innovative solutions using cutting-edge machine learning and deep learning techniques. Let&apos;s create something extraordinary together!
+                Hello! I&apos;m a results-driven Python Full Stack Developer and Data Analyst with over 2.5 years of experience in building scalable web applications, business intelligence dashboards, and software solutions. I specialize in translating complex business requirements into functional, efficient, and user-friendly applications.
               </p>
               <motion.div 
                 className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start pt-4"
@@ -70,7 +70,7 @@ export function HomeClient({ recentPosts }: HomeClientProps) {
                   </Link>
                 </Button>
                 <Button size="lg" variant="outline" asChild>
-                  <Link href="mailto:danialasimbashir@gmail.com">Contact Me</Link>
+                  <Link href="mailto:fadiljaleel101@gmail.com">Contact Me</Link>
                 </Button>
               </motion.div>
             </motion.div>
@@ -81,7 +81,7 @@ export function HomeClient({ recentPosts }: HomeClientProps) {
               transition={{ duration: 0.5, delay: 0.3 }}
             >
               <Image
-                src="/images/hero-section.webp"
+                src="/images/hero-section.png"
                 alt="AI/ML Engineer"
                 fill
                 className="object-contain"
@@ -108,7 +108,7 @@ export function HomeClient({ recentPosts }: HomeClientProps) {
             </div>
             <h2 className="text-2xl md:text-3xl font-bold tracking-tighter mb-4">Tools & Technologies</h2>
             <p className="text-muted-foreground md:text-lg max-w-[800px] mx-auto px-4">
-              Leveraging cutting-edge tools and frameworks in AI, Machine Learning, and Natural Language Processing.
+              Leveraging modern technologies in Python development, web frameworks, and data analytics.
             </p>
           </motion.div>
           <ToolsGrid />
@@ -240,7 +240,7 @@ export function HomeClient({ recentPosts }: HomeClientProps) {
               Ready to transform your ideas into reality? Let&apos;s collaborate and create innovative AI solutions.
             </p>
             <Button size="lg" className="mt-8" asChild>
-              <Link href="mailto:danialasimbashir@gmail.com">Get in Touch</Link>
+              <Link href="mailto:fadiljaleel101@gmail.com">Get in Touch</Link>
             </Button>
           </motion.div>
         </div>

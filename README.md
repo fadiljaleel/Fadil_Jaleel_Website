@@ -1,4 +1,4 @@
-# Portfolio & Blog Website.
+# Portfolio & Blog Website
 
 A modern, responsive portfolio and blog website built with Next.js 14, TypeScript, and Tailwind CSS. This website showcases my work, skills, and blog posts with a focus on performance, accessibility, and user experience.
 
@@ -38,76 +38,105 @@ A modern, responsive portfolio and blog website built with Next.js 14, TypeScrip
 ```bash
 git clone [your-repo-url]
 cd portfolio-website
-```
+Install dependencies:
 
-2. Install dependencies:
-```bash
+bash
+Copy code
 npm install
 # or
 yarn install
 # or
 pnpm install
-```
+Create a .env.local file in the root directory and add any required environment variables.
 
-3. Create a `.env.local` file in the root directory and add any required environment variables.
+Start the development server:
 
-4. Start the development server:
-```bash
+bash
+Copy code
 npm run dev
 # or
 yarn dev
 # or
 pnpm dev
-```
+Open http://localhost:3000 in your browser.
 
-5. Open [http://localhost:3000](http://localhost:3000) in your browser.
+📝 Blog Posts
+Blog posts are written in MDX format and stored in the posts directory. To create a new blog post:
 
-## 📝 Blog Posts
+Create a new .mdx file in the posts directory
 
-Blog posts are written in MDX format and stored in the `posts` directory. To create a new blog post:
+Add frontmatter with title, date, and description
 
-1. Create a new `.mdx` file in the `posts` directory
-2. Add frontmatter with title, date, and description
-3. Write your content using Markdown and JSX components
+Write your content using Markdown and JSX components
 
 Example frontmatter:
-```yaml
+
+yaml
+Copy code
 ---
 title: "My First Blog Post"
 date: "2024-01-10"
 description: "This is my first blog post using MDX"
 ---
-```
+🎨 Customization
+Theme: Modify tailwind.config.ts to customize colors, fonts, and other design tokens
 
-## 🎨 Customization
+Components: Add or modify components in the components directory
 
-- **Theme**: Modify `tailwind.config.ts` to customize colors, fonts, and other design tokens
-- **Components**: Add or modify components in the `components` directory
-- **Styles**: Update global styles in `app/globals.css`
-- **Layout**: Modify the layout in `app/layout.tsx`
+Styles: Update global styles in app/globals.css
 
-## 📦 Project Structure
+Layout: Modify the layout in app/layout.tsx
 
-- `app/` - Next.js app router pages and layouts
-- `components/` - Reusable UI components
-- `lib/` - Utility functions and configurations
-- `posts/` - MDX blog posts
-- `public/` - Static assets
-- `utils/` - Helper functions
+📦 Project Structure
+app/ - Next.js app router pages and layouts
 
-## 🚀 Deployment
+components/ - Reusable UI components
 
+lib/ - Utility functions and configurations
+
+posts/ - MDX blog posts
+
+public/ - Static assets
+
+utils/ - Helper functions
+
+🚀 Deployment
 The easiest way to deploy this website is using Vercel:
 
-1. Push your code to a GitHub repository
-2. Import your repository on Vercel
-3. Add required environment variables
-4. Deploy!
+Push your code to a GitHub repository
 
-## 📄 License
+Import your repository on Vercel
 
+Add required environment variables
+
+Deploy!
+
+📄 License
 This project is licensed under the MIT License.
 
-## 🤝 Contributing
-
+🤝 Contributing
 Contributions are welcome! Please feel free to submit a Pull Request.
+
+yaml
+Copy code
+
+**Save the file** (`Cmd + S`)
+
+---
+
+### **Step 2: Run these commands in your VS Code terminal**
+
+Copy-paste **all at once**:
+
+```bash
+# Mark README as resolved
+git add README.md
+
+# Add all other changes (images, icons, resume)
+git add .
+
+# Commit everything
+git commit -m "Resolve README conflict and update full portfolio content"
+
+# Push to GitHub
+git push -u origin main
