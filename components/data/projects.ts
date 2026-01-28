@@ -94,7 +94,7 @@ export const projects: Project[] = [
     image: "/projects/website-homepage.png",
     longDescription: "A modern portfolio website built with React, Next.js, and TailwindCSS. Features include responsive design, server-side rendering, and continuous deployment with Vercel. Optimized for performance and SEO.",
     tags: ["React", "Next.js", "TailwindCSS", "Vercel"],
-    github: "https://github.com/fadiljaleel/",
+    github: "https://github.com/fadiljaleel/Fadil_Jaleel_Website",
     huggingface: "https://www.fadiljaleel.com/",
     stats: {
       deployments: 100,
