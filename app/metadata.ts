@@ -1,55 +1,96 @@
-import { Metadata } from 'next'
+import type { Metadata } from 'next'
 
 export const siteConfig = {
-  name: 'AI/ML Engineer Portfolio',
-  description: 'Personal portfolio and blog of an AI/ML Engineer',
-  url: process.env.NEXT_PUBLIC_BASE_URL || 'https://www.danialasim.com/',
-  ogImage: '/og-image.jpg',
+  name: 'Muhammed Fadil',
+  title: 'Muhammed Fadil | Python Full Stack Developer',
+  description:
+    'Python Full Stack Developer with 2.5+ years of experience building scalable web applications, business intelligence dashboards, and software solutions that power business growth.',
+  url: process.env.NEXT_PUBLIC_BASE_URL || 'https://www.fadiljaleel.com',
+  ogImage: '/og-image.png',
   links: {
-    github: 'https://github.com/danialasim',
+    github: 'https://github.com/fadiljaleel',
+    linkedin: 'https://www.linkedin.com/in/fadiljaleel',
   },
 }
 
 export const defaultMetadata: Metadata = {
-  title: {
-    default: siteConfig.name,
-    template: `%s | ${siteConfig.name}`,
-  },
-  description: siteConfig.description,
-  authors: [{ name: 'Danial Asim' }],
-  creator: 'Danial Asim',
   metadataBase: new URL(siteConfig.url),
+
+  title: {
+    default: siteConfig.title,
+    template: `%s | Muhammed Fadil`,
+  },
+
+  description: siteConfig.description,
+
+  authors: [
+    {
+      name: 'Muhammed Fadil',
+      url: siteConfig.url,
+    },
+  ],
+
+  creator: 'Muhammed Fadil',
+
+  keywords: [
+    'Python Full Stack Developer',
+    'Python Developer',
+    'Full Stack Developer',
+    'Django Developer',
+    'FastAPI Developer',
+    'Web Developer',
+    'Business Intelligence',
+    'Data Analyst',
+    'Software Engineer',
+    'Muhammed Fadil',
+    'Fadil Jaleel',
+  ],
+
   openGraph: {
     type: 'website',
     locale: 'en_US',
     url: siteConfig.url,
-    title: siteConfig.name,
+    title: siteConfig.title,
     description: siteConfig.description,
-    siteName: siteConfig.name,
+    siteName: 'Muhammed Fadil Portfolio',
     images: [
       {
         url: siteConfig.ogImage,
         width: 1200,
         height: 630,
-        alt: siteConfig.name,
+        alt: 'Muhammed Fadil | Python Full Stack Developer',
       },
     ],
   },
+
   twitter: {
     card: 'summary_large_image',
-    title: siteConfig.name,
+    title: siteConfig.title,
     description: siteConfig.description,
     images: [siteConfig.ogImage],
-    creator: '@danialasim',
+    creator: '@fadiljaleel',
   },
+
   icons: {
-    icon: '/icon.png',
-    shortcut: '/icon.ico',
-    apple: '/apple-icon.png',
-    other: {
-      rel: 'apple-touch-icon-precomposed',
-      url: '/apple-touch-icon-precomposed.png',
+    icon: [
+      { url: '/favicon-32x32.png', sizes: '32x32', type: 'image/png' },
+      { url: '/favicon-16x16.png', sizes: '16x16', type: 'image/png' },
+    ],
+    apple: '/apple-touch-icon.png',
+    shortcut: '/favicon.ico',
+  },
+
+  manifest: '/site.webmanifest',
+
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      'max-image-preview': 'large',
+      'max-snippet': -1,
+      'max-video-preview': -1,
     },
   },
-  manifest: '/site.webmanifest',
 }

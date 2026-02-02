@@ -118,7 +118,13 @@ export function BlogClient({ allPosts, categories }: BlogClientProps) {
                     </div>
                     <div className="flex items-center justify-between">
                       <div className="text-sm text-muted-foreground">
-                        {new Date(post.frontmatter.date).toLocaleDateString('en-US')}
+                        {(() => {
+                          const date = new Date(post.frontmatter.date)
+                          const day = String(date.getDate()).padStart(2, '0')
+                          const month = String(date.getMonth() + 1).padStart(2, '0')
+                          const year = date.getFullYear()
+                          return `${day}/${month}/${year}`
+                        })()}
                       </div>
                       <span className="text-primary hover:text-primary/80 transition-colors font-medium flex items-center gap-1">
                         Read more
