@@ -6,19 +6,19 @@ export function SocialLinks() {
   return (
     <div className="flex items-center gap-2">
       <Button variant="ghost" size="icon" className="rounded-full w-9 h-9" asChild>
-        <Link href="https://github.com/danialasim" target="_blank" rel="noopener noreferrer">
+        <Link href="https://github.com/fadiljaleel" target="_blank" rel="noopener noreferrer">
           <Github className="h-4 w-4" />
           <span className="sr-only">GitHub</span>
         </Link>
       </Button>
       <Button variant="ghost" size="icon" className="rounded-full w-9 h-9" asChild>
-        <Link href="https://www.linkedin.com/in/danialasim/" target="_blank" rel="noopener noreferrer">
+        <Link href="https://www.linkedin.com/in/fadiljaleel/" target="_blank" rel="noopener noreferrer">
           <Linkedin className="h-4 w-4" />
           <span className="sr-only">LinkedIn</span>
         </Link>
       </Button>
       <Button variant="ghost" size="icon" className="rounded-full w-9 h-9" asChild>
-        <Link href="mailto:danialasimbashir@gmail.com">
+        <Link href="mailto:fadiljaleel101@gmail.com">
           <Mail className="h-4 w-4" />
           <span className="sr-only">Email</span>
         </Link>
